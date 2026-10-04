@@ -1,0 +1,20 @@
+[project]
+name = "iceberg-writer-benchmark"
+version = "0.1.0"
+description = "Reproducible benchmark comparing iceberg-loader with the dlt Iceberg destination"
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+license = "MIT"
+dependencies = [
+    "iceberg-loader[rest] @ git+https://github.com/vndvtech/iceberg-loader@v0.1.4",
+    "dlt[filesystem,pyiceberg]>=1.30.0",
+    "requests>=2.31",
+]
+authors = [{ name = "Ivan Matveev", email = "vndvtech@gmail.com" }]
+keywords = ["iceberg", "benchmark", "pyarrow", "dlt", "data-loading"]
+
+[project.urls]
+Repository = "https://github.com/vndvtech/iceberg-writer-benchmark"
+
+[tool.uv]
+package = false

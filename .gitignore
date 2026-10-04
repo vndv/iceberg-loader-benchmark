@@ -1,0 +1,9 @@
+results/
+logs/
+__pycache__/
+*.pyc
+.venv/
+.env*
+.python-version
+.codegraph/
+anonse.md

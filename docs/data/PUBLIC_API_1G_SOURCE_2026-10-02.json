@@ -1,0 +1,61 @@
+{
+  "source": {
+    "url": "https://data.cityofnewyork.us/api/views/erm2-nwe9/rows.csv?accessType=DOWNLOAD",
+    "etag": "\"Zm94dHJvdC4xNTY1NV8xODNfMTkzODcxOXZFNElNVGlORmdKUnprbTFLdk0tWEFqOUEw---gzipwybGPH6U_taZFuqee4UVX9hg7iI--gzip--gzip\"",
+    "last_modified": "Fri, 02 Oct 2026 01:39:21 GMT",
+    "truth_last_modified": "Fri, 02 Oct 2026 01:39:21 GMT"
+  },
+  "schema": [
+    "unique_key",
+    "created_date",
+    "closed_date",
+    "agency",
+    "agency_name",
+    "problem_formerly_complaint_type",
+    "problem_detail_formerly_descriptor",
+    "additional_details",
+    "location_type",
+    "incident_zip",
+    "incident_address",
+    "street_name",
+    "cross_street_1",
+    "cross_street_2",
+    "intersection_street_1",
+    "intersection_street_2",
+    "address_type",
+    "city",
+    "landmark",
+    "facility_type",
+    "status",
+    "due_date",
+    "resolution_description",
+    "resolution_action_updated_date",
+    "community_board",
+    "council_district",
+    "police_precinct",
+    "bbl",
+    "borough",
+    "x_coordinate_state_plane",
+    "y_coordinate_state_plane",
+    "open_data_channel_type",
+    "park_facility_name",
+    "park_borough",
+    "vehicle_type",
+    "taxi_company_borough",
+    "taxi_pick_up_location",
+    "bridge_highway_name",
+    "bridge_highway_direction",
+    "road_ramp",
+    "bridge_highway_segment",
+    "latitude",
+    "longitude",
+    "location"
+  ],
+  "fixtures": {
+    "1073741824": {
+      "bytes": 1073741619,
+      "rows": 1721470,
+      "sha256": "17b97f0e66b9f1de2386784f68ab5b29ad50316065f2f337cf83ff1522e5ce36"
+    }
+  }
+}
